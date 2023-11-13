@@ -28,6 +28,6 @@ public class Rectangle implements Shape {
 
     @Override
     public int calculateArea() {
-        return 0;
+        return width * height;
     }
 }
